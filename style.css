@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+body{
+
+	 opacity:0;  
+  	-webkit-animation:fadeIn ease-in;
+  	animation-iteration-count: 1;  
+  	-webkit-animation-fill-mode:both; 
+	-webkit-animation-duration:1.5s;
+}
+.top-section{
+	margin-top: 20px;
+	border-bottom: 2px solid #F2F2F2;
+	overflow: hidden;
+	background: #fff;
+
+}
+.logo{
+	cursor: pointer;
+}
+.menu{}
+.menu ul{
+	margin-top: -18px;
+}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #464646;
+	float: left;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+.login{
+	float: right;
+	font-size: 17px;
+}
+.login a{
+	color: #464646;
+	text-decoration: none;
+
+}
+.login i{
+	float: right;
+	padding-top: 4px;
+
+}
+
+.position-fixed-section{
+	position: -webkit-sticky;
+  	position: sticky;
+  	 z-index:1;
+  	top:0;
+	background-color: #fff;
+	color: #464646;
+	height: 55px;
+	padding-top: 12px;
+
+}
+.asus-zenbook a {
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+}
+.fixed-menu{
+	float: right;
+}
+.fixed-menu i{
+	font-size: 12px;
+}
+.fixed-menu ul{
+	padding-left: 80px;
+}
+.fixed-menu ul li{
+	list-style: none;
+	float: left;
+}
+.fixed-menu ul li a{
+	color: #464646;
+	text-decoration: none;
+	font-size: 15px;
+	padding-left: 15px;
+}
+.fixed-menu ul li a:hover{
+	color: black;
+}
+.asus-zenbook-banner-section{
+	text-align: center;
+	background:url("img/00_kv_logo.png"),url("img/00_kv.jpg")no-repeat scroll center/ cover;
+	 height: 1792px;
+	 width: 100%;
+	 background-repeat: no-repeat;
+}
+.asus-zenbook-banner-section p{
+	padding-top:1200px;
+	font-size: 25px;
+	color: #ddd;
+}
+.welcome-text{
+	color: #fff;
+}
+.heading-text h3{
+	font-size: 50px;
+	
+}
+.heading-text h5{
+	color: #C96A54;
+	font-size: 25px;
+}
+.heading-text{
+	padding-top: 120px;
+}
+.design-section{
+	background-color: #000000;
+}
+.design-text{
+	text-align: center;
+	color: #fff;
+}
+.design-text h2{
+	color: #C96A54;
+}
+.design-text p{
+	font-size: 20px;
+}
+.design-text h1{
+	font-size: 40px;
+
+}
+.paecentige-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+}
+.text-center h1{
+	color: #C96A54;
+	font-size: 50px;
+}
+.img-laptop{
+	height: 712px;
+	background: url("img/04_design.jpg") no-repeat center;
+	background-size: contain,cover;
+}
+.img-text{
+	text-align: center;
+}
+.img-text .box{
+	width: 40px;
+	height: 4px;
+	background-color: #167EFF;
+	margin-top: 15px;
+}
+.shadow{
+	color: #fff;
+	text-shadow:  0px 5px 7px #167EFF; 
+}
+.img-text{
+	color: #fff;
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+	bottom: 0;
+	padding-top: 640px;
+}
+.nanoedge-display{
+	background-color: black;
+}
+.nanoedge-display-text{
+	text-align: center;
+	color: #fff;
+}
+.nanoedge-display-text h2{
+	color: #C96A54;
+}
+.nanoedge-display-text h1{
+	font-size: 50px;
+}
+.nanoedge-display-text p{
+	font-size: 20px;
+}
+.nanoedge-display-parcentage{
+	padding-bottom: 50px;
+}
+.laptop-banner{
+	height: 566px;
+	width: 100%;
+	background: url("img/laptopbanner.png") no-repeat center/cover;
+}
+.display-spectacular-visuals{
+	text-align: center;
+	color: #fff;
+}
+.display-spectacular-visuals-text{
+	padding-bottom: 20px;
+}
+.display-spectacular-visuals-text h2{
+	color: #C96A54;
+}
+.display-spectacular-visuals-text h1{}
+.display-spectacular-visuals-text p{}
+.display-spectacular-visuals-text a{
+	color: #C96A54;
+	font-size: 20px;
+}
+.display-spectacular-visuals-text i{
+	font-size: 12px;
+}
+.rgb-asus-zen-book{
+	padding-top: 100px;
+	height: 1036px;
+	width: 100%;
+	background: url(img/02_display.jpg)no-repeat center/cover;
+}
+.rgb-text{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.text h1 span{
+	font-size: 20px;
+}
+.text h1{
+	color: #C96A54;
+	font-size: 50px;
+}
+.ergolift-hinge{
+ 	width: 100%;
+	background: url("img/03_hinge_bg.jpg") no-repeat center/cover;
+}
+.ergolift-hinge-text{
+	color: #fff;
+	padding-top: 200px;
+}
+.ergolift-hinge-text h3{
+	color: #C96A54
+}
+.ergolift-hinge-text h1{
+	font-size: 50px;
+
+}
+.ergolift-hinge-text p{
+	color: #ddd;
+	font-size: 20px;
+}
+.left{
+	margin-left: 100px;
+}
+.icon img{
+	height: 88px;
+	width: 91px;
+}
+.icon p{
+	font-size: 14px;
+	color: #ddd;
+	text-align: center;
+}
+.skew-img{
+	margin-left: -300px;
+}
+.img11{
+	margin-left: 340px;
+	transform: rotate(-117deg);
+}
+.ergolift-hinge:hover .img11{
+	transition: 1s ease-out 1s;
+	margin-left: 900px;
+	transform: translateY(-500px);
+}
+.ergolift-hinge:hover .img1{
+	transform: rotate(1deg);
+	transition: 1s ease-out 1s;
+	transform: translateY(-20px);
+	margin-left: -250px;
+}
+.img1{
+	width: 1290px;
+	height: 206px;
+	margin-top: -1100px;
+	transform: rotate(4deg);
+}
+/*.color{
+	margin-top: 1000px;
+	width: 100%;
+	background: #748BAB;
+	text-align: center;
+	color: #fff;
+}*/
